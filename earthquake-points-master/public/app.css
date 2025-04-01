@@ -1,0 +1,13 @@
+html, body {
+  height: 100%;
+}
+
+#root {
+  margin: 24px auto;
+  width: 1024px;
+}
+
+#map {
+  height: 768px;
+  width: 100%;
+}

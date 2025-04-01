@@ -1,0 +1,14 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "repository": "git@github.com:aitorfernandez/game-of-life.git",
+  "author": "Aitor Fernandez <helloimaitor@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "rollup -c -w"
+  },
+  "devDependencies": {
+    "rollup": "^1.17.0",
+    "rollup-watch": "^4.3.1"
+  }
+}

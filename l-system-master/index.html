@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>L-System</title>
+
+  <meta name="description" content="">
+
+  <style media="screen">
+    video {
+      display: block;
+    }
+
+    #bgvid {
+      /* background: url(./assets/lsystem.png) no-repeat; */
+      background-size: cover;
+      height: auto;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      position: fixed;
+      top: 50%;
+      width: auto;
+      z-index: -999;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+    }
+
+    @media screen and (max-device-width: 800px) {
+      html {
+        /* background: url(./assets/lsystem.png) #000 no-repeat center center fixed; */
+      }
+      #bgvid {
+        display: none;
+      }
+    }
+  </style>
+
+  <!--[if lt IE 9]>
+  <script>
+    document.createElement('video');
+  </script>
+  <![endif]-->
+</head>
+
+<body>
+  <main>
+    <video autoplay loop preload="auto" id="bgvid">
+      <source src="./assets/LSystem120.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </main>
+</body>
+
+</html>
